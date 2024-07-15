@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ChaBook</title>
+
+    <!--=============== FLATICON ===============-->
+    <link rel='stylesheet' 
+    href='https://cdn-uicons.flaticon.com/2.1.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+
+    <link rel='stylesheet' 
+    href='https://cdn-uicons.flaticon.com/2.1.0/uicons-regular-straight/css/uicons-regular-straight.css'>
+
+    <link rel='stylesheet' 
+    href='https://cdn-uicons.flaticon.com/2.1.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+
+    <link rel='stylesheet' 
+    href='https://cdn-uicons.flaticon.com/2.1.0/uicons-brands/css/uicons-brands.css'>
+
+    <link rel='stylesheet' 
+    href='https://cdn-uicons.flaticon.com/2.1.0/uicons-bold-straight/css/uicons-bold-straight.css'>
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet"
+     href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <!--=============== BOOTSTRAP ===============-->
+    <link rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" 
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
+    crossorigin="anonymous">
+
+    <!--=============== FONTAWSOME ===============-->
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="AssetFiles/CSS/style.css" />
+
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header">
+        <div class="header-top">
+          <div class="header-container container">
+            <div class="header-contact">
+              <ul class="header-socialmedia">
+                <li>
+                  <a href="tel">
+                    <i class="fi fi-sr-phone-flip"></i>
+                    +982144456789
+                  </a>
+                </li> 
+              </ul>
+            </div>
+  
+            <div class="header-quotes">
+              <p> Reading is Dreaming with open eyes...</p>
+            </div>
+            
+            <div class="header-login">
+              <a href="login.html"> 
+                Log In/Sign Up
+              </a>
+            </div>
+  
+          </div>
+        </div>
+  
+        <nav class="nav container">
+          <a href="index.html" class="nav-logo">
+            <img src="AssetFiles/images/ChaBook-Logo-typography-orange-brown.png" alt="" class="nav-logo-image">
+          </a>
+  
+          <div class="nav-menu" id="nav-menu">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link">Home</a>
+              </li>
+  
+              <li class="nav-item">
+                <a href="shop.html" class="nav-link">Shop</a>
+              </li>
+  
+              <li class="nav-item">
+                <a href="account.html" class="nav-link">My Account</a>
+              </li>
+  
+              <li class="nav-item">
+                <a href="" class="nav-link">Category</a>
+              </li>
+  
+              <li class="nav-item">
+                <a href="login.html" class="nav-link">Login</a>
+              </li>
+            </ul>
+  
+            <div class="header-search">
+              <input type="text" placeholder="Search in ChaBook..." class="form-input">
+  
+              <button class="search-btn">
+                <i class="fa fa-search"></i>
+              </button>
+            </div>
+          </div>
+  
+          <div class="header-user-actions">
+            <a href="wishlist.html" class="header-action-btn">
+              <i class="fi fi-rs-heart"></i>
+              <span class="count">3</span>
+            </a>
+  
+            <a href="cart.html" class="header-action-btn">
+              <i class="fi fi-rs-shopping-bag"></i>
+              <span class="count">2</span>
+            </a>
+          </div>
+        </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+      <!--=============== BREADCRUMB ===============-->
+      <section class="breadcrumb">
+        <ul class="breadcrumb-list flex container">
+            <li><a href="index.html" class="breadcrumb-link">Home</a></li>
+            <li><span class="breadcrumb-link">></span></li>
+            <li><a href="shop.html" class="breadcrumb-link">Fantasy</a></li>
+            <li><span class="breadcrumb-link">></span></li>
+            <li><a href="shop.html" class="breadcrumb-link active">Little Prince</a></li>
+        </ul>
+      </section>
+
+      <!--=============== DETAILS ===============-->
+      <section class="details section-lg">
+        <div class="details-container container grid">
+          <div class="details-group">
+            <img src="AssetFiles/images/Book-images/Little-Prince.jpg" 
+              alt="" 
+              class="details-image"
+            />
+
+            <div class="details-small-images grid">
+              <img src="AssetFiles/images/Book-images/Little-Prince.jpg" 
+                alt="" 
+                class="details-small-image"
+              />
+
+              <img src="AssetFiles/images/Book-images/Verity.jpg" 
+                alt="" 
+                class="details-small-image"
+              />
+            </div>
+
+          </div>
+
+          <div class="details-group">
+            <h3 class="details-title">Little Prince</h3>
+            <p class="details-author">Author: <span>Antoine de Saint-Exupéry</span></p>
+            <p class="details-publisher">Publisher: <span>Kheili Sabz</span></p>
+
+            <div class="details-price flex">
+              <span class="new-price">120,000T</span>
+              <span class="old-price">135,000T</span>
+              <span class="save-price"><span>10%</span> off</span>
+            </div>
+
+            <p class="short-description"><span>About This Book:</span>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Facere quidem laboriosam beatae inventore ab veritatis. Officia 
+              est voluptatibus aspernatur esse! Non tempore iusto nam 
+              quia veritatis laudantium facilis veniam quisquam.
+            </p>
+
+            <ul class="product-list">
+              <li class="list-item flex">
+                <i class="fi-rs-refresh"></i>
+                7 Days Return Policy
+              </li>
+
+              <li class="list-item flex">
+                <i class="fi fi-bs-shipping-fast"></i>
+                Delivery by Pishtaz Post
+              </li>
+
+              <li class="list-item flex">
+                <i class="fi-rs-credit-card"></i>
+                Cash on Delivery Available
+              </li>
+            </ul>
+
+            <div class="details-action">
+              <input type="number" class="quantity" value="1" />
+
+              <a href="#" class="btn btn-sm">Add to Cart</a>
+
+              <a href="#" class="details-action-btn">
+                <i class="fi fi-rs-heart"></i>
+              </a>
+            </div>
+
+            <ul class="details-meta">
+              <li class="meta-list flex">Tags: <span>Little_Prince, Prince, Fantasy</span></li>
+              <li class="meta-list flex">Availability: <span>8</span> Items In Stock</li>
+            </ul>
+
+          </div>
+        </div>
+      </section>
+
+      <!--=============== DETAILS TAB ===============-->
+      <section class="details__tab"></section>
+      
+      <!--=============== PRODUCTS ===============-->
+      <section class="products"></section>
+
+      <!--=============== NEWSLETTER ===============-->
+      <section class="newsletter section home-newsletter">
+        <div class="newsletter-container container grid">
+          <h3 class="newsletter-title flex">
+            <i class="fi fi-rr-envelope-plus newsletter-icon"></i>
+            Sign Up to Newsletter  
+          </h3>
+
+          <p class="newsletter-description">
+            and Recieve a <span>20% Coupon</span> for First Shopping
+          </p>
+
+          <form action="" class="newsletter-form">
+            <input 
+              type="text" 
+              placeholder="Enter Your Email"
+              class="newsletter-input"
+            >
+            <button type="submit" class="newsletter-btn">Subscribe</button>
+          </form>
+        </div>
+      </section>
+
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer-initial">
+        <div class="footer container">
+          <div class="footer-container grid">
+          <div class="footer-content">
+            <a href="" class="footer-logo">
+              <img src="AssetFiles/images/ChaBook-Logo-typography-cream.png" 
+                class="footer-logo-image" 
+                alt=""
+                />
+            </a>
+  
+            <h3 class="footer-subtitle">contact</h4>
+  
+            <p class="footer-description">
+              <span><i class="fi fi-sr-marker footer-contact-icon"></i> </span>
+               No55, Bagheri Alley, Enghelab Street, Tehran
+            </p>
+  
+            <p class="footer-description">
+              <span><i class="fi fi-sr-phone-flip footer-contact-icon"></i> </span>
+               +982144456789
+            </p>
+  
+            <p class="footer-description">
+              <span><i class="fi fi-sr-clock footer-contact-icon"></i> </span> 
+               9:00-20:00 Sat-Thu
+            </p>
+  
+            <div class="footer-social">
+              <h3 class="footer-subtitle">Follow Us</h4>
+  
+              <div class="footer-social-links flex">
+                <a href="">
+                  <i class="fi fi-brands-instagram footer-social-icon"></i>
+                </a>
+  
+                <a href="">
+                  <i class="fi fi-brands-telegram footer-social-icon"></i>
+                </a>
+  
+                <a href="">
+                  <i class="fi fi-brands-youtube footer-social-icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+  
+          <div class="footer-content">
+            <h3 class="footer-title">Address</h3>
+  
+            <ul class="footer-links">
+              <li><a href="" class="footer-link">About us</a></li>
+              <li><a href="" class="footer-link">Delivery Information</a></li>
+              <li><a href="" class="footer-link">Privacy Policy</a></li>
+              <li><a href="" class="footer-link">Terms & Conditions</a></li>
+              <li><a href="" class="footer-link">Contact us</a></li>
+              <li><a href="" class="footer-link">Support Center</a></li>
+            </ul>
+          </div>
+  
+          <div class="footer-content">
+            <h3 class="footer-title">My Account</h3>
+  
+            <ul class="footer-links">
+              <li><a href="" class="footer-link">Sign In</a></li>
+              <li><a href="" class="footer-link">View Cart</a></li>
+              <li><a href="" class="footer-link">My Wishlist</a></li>
+              <li><a href="" class="footer-link">Track My Order</a></li>
+              <li><a href="" class="footer-link">Help</a></li>
+              <li><a href="" class="footer-link">Order</a></li>
+            </ul>
+          </div>
+  
+          <div class="footer-content">
+            <h3 class="footer-title">Secured payment Gateways</h3>
+            <img 
+              src="AssetFiles/images/payment-method.png" 
+              alt="" 
+              class="payment-image"
+            />
+          </div>
+          </div>
+  
+          <div class="footer-bottom">
+            <p class="copyright">&copy; 2024 ChaBook. All rights reserved</p>
+            <span class="designer">Designed by MAH Team</span>
+          </div>
+        </div>
+    </footer>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="AssetFiles/Script/main.js"></script>
+  </body>
+</html>

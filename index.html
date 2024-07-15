@@ -1,0 +1,2683 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ChaBook</title>
+
+    <!--=============== FLATICON ===============-->
+    <link rel='stylesheet' 
+    href='https://cdn-uicons.flaticon.com/2.1.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+
+    <link rel='stylesheet' 
+    href='https://cdn-uicons.flaticon.com/2.1.0/uicons-regular-straight/css/uicons-regular-straight.css'>
+
+    <link rel='stylesheet' 
+    href='https://cdn-uicons.flaticon.com/2.1.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+
+    <link rel='stylesheet' 
+    href='https://cdn-uicons.flaticon.com/2.1.0/uicons-brands/css/uicons-brands.css'>
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet"
+     href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <!--=============== BOOTSTRAP ===============-->
+    <link rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" 
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
+    crossorigin="anonymous">
+
+    <!--=============== FONTAWSOME ===============-->
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="AssetFiles/CSS/style.css" />
+
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header">
+      <div class="header-top">
+        <div class="header-container container">
+          <div class="header-contact">
+            <ul class="header-socialmedia">
+              <li>
+                <a href="tel">
+                  <i class="fi fi-sr-phone-flip"></i>
+                  +982144456789
+                </a>
+              </li> 
+            </ul>
+          </div>
+
+          <div class="header-quotes">
+            <p> Reading is Dreaming with open eyes...</p>
+          </div>
+          
+          <div class="header-login">
+            <a href="login.html"> 
+              Log In/Sign Up
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+      <nav class="nav container">
+        <a href="index.html" class="nav-logo">
+          <img src="AssetFiles/images/ChaBook-Logo-typography-orange-brown.png" alt="" class="nav-logo-image">
+        </a>
+
+        <div class="nav-menu" id="nav-menu">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link active-link">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="shop.html" class="nav-link">Shop</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="account.html" class="nav-link">My Account</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="" class="nav-link">Category</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="login.html" class="nav-link">Login</a>
+            </li>
+          </ul>
+
+          <div class="header-search">
+            <input type="text" placeholder="Search in ChaBook..." class="form-input">
+
+            <button class="search-btn">
+              <i class="fa fa-search"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="header-user-actions">
+          <a href="wishlist.html" class="header-action-btn">
+            <i class="fi fi-rs-heart"></i>
+            <span class="count">3</span>
+          </a>
+
+          <a href="cart.html" class="header-action-btn">
+            <i class="fi fi-rs-shopping-bag"></i>
+            <span class="count">2</span>
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+      <!--=============== HOME ===============-->
+      <section class="home section-lg">
+        <div class="home-container container grid">
+          <div class="home-content">
+            <span class="home-subtitle">Unlock The World of Books in</span>
+            <h1 class="home-title"><span>ChaBook </span>Store</h1>
+            <p class="home-description">Start your journey Today!</p>
+            <a href="shop.html" class="btn">
+              Let's Go 
+              <span><i class="fa fa-arrow-right"></i></span>
+            </a>
+          </div>
+
+          <img src="AssetFiles/images/book-self.png" alt="" class="home-image">
+        </div>
+      </section>
+
+      <!--=============== CATEGORIES ===============-->
+      <section class="categories container section">
+        <h3 class="section-title"> <span>Popular</span> Categories</h3>
+
+        <div class="categories-container swiper">
+          <div class="swiper-wrapper">
+            <a href="shop.html" class="category-item swiper-slide">
+              <img src="AssetFiles/images/adventure.jpg" alt="" class="category-image">
+              <h3 class="category-title">Adventure</h3>
+            </a>
+
+            <a href="shop.html" class="category-item swiper-slide">
+              <img src="AssetFiles/images/classic.jpg" alt="" class="category-image">
+              <h3 class="category-title">Classic</h3>
+            </a>
+
+            <a href="shop.html" class="category-item swiper-slide">
+              <img src="AssetFiles/images/fantasy.jpg" alt="" class="category-image">
+              <h3 class="category-title">Fantasy</h3>
+            </a>
+
+            <a href="shop.html" class="category-item swiper-slide">
+              <img src="AssetFiles/images/self-help.jpg" alt="" class="category-image">
+              <h3 class="category-title">Self Help</h3>
+            </a>
+
+            <a href="shop.html" class="category-item swiper-slide">
+              <img src="AssetFiles/images/horror.jpg" alt="" class="category-image">
+              <h3 class="category-title">Horror</h3>
+            </a>
+
+            <a href="shop.html" class="category-item swiper-slide">
+              <img src="AssetFiles/images/crime.jpg" alt="" class="category-image">
+              <h3 class="category-title">Crime</h3>
+            </a>
+
+            <a href="shop.html" class="category-item swiper-slide">
+              <img src="AssetFiles/images/humour-and-satire.jpg" alt="" class="category-image">
+              <h3 class="category-title">Humour</h3>
+            </a>
+
+            <a href="shop.html" class="category-item swiper-slide">
+              <img src="AssetFiles/images/poetry.jpg" alt="" class="category-image">
+              <h3 class="category-title">Poetry</h3>
+            </a>
+
+            <a href="shop.html" class="category-item swiper-slide">
+              <img src="AssetFiles/images/historical.jpg" alt="" class="category-image">
+              <h3 class="category-title">Historical</h3>
+            </a>
+
+            <a href="shop.html" class="category-item swiper-slide">
+              <img src="AssetFiles/images/biography.jpg" alt="" class="category-image">
+              <h3 class="category-title">Biography</h3>
+            </a>
+
+            <a href="shop.html" class="category-item swiper-slide">
+              <img src="AssetFiles/images/short-stories.jpg" alt="" class="category-image">
+              <h3 class="category-title">Short Stories</h3>
+            </a>
+
+            <a href="shop.html" class="category-item swiper-slide">
+              <img src="AssetFiles/images/mystery.jpg" alt="" class="category-image">
+              <h3 class="category-title">Mystery</h3>
+            </a>
+            
+            <a href="shop.html" class="category-item swiper-slide">
+              <img src="AssetFiles/images/literary.jpg" alt="" class="category-image">
+              <h3 class="category-title">Literary</h3>
+            </a>
+
+            <a href="shop.html" class="category-item swiper-slide">
+              <img src="AssetFiles/images/scince.jpg" alt="" class="category-image">
+              <h3 class="category-title">Science</h3>
+            </a>
+
+            <a href="shop.html" class="category-item swiper-slide">
+              <img src="AssetFiles/images/essays.jpg" alt="" class="category-image">
+              <h3 class="category-title">Essays</h3>
+            </a>
+
+          </div>
+
+          <div class="swiper-button-prev">
+            <i class="fi fi-sr-angle-left"></i>
+          </div>
+          <div class="swiper-button-next">
+            <i class="fi fi-sr-angle-right"></i>
+          </div>        
+
+        </div>
+      </section>
+
+      <!--=============== PRODUCTS ===============-->
+      <section class="products container section">
+        <div class="tab-btns">
+          <span class="tab-btn active-tab" data-target="#bestsellers">Bestsellers</span>
+          <span class="tab-btn" data-target="#newest">Newest</span>
+          <span class="tab-btn" data-target="#most-popular">Most Popular</span>
+        </div>
+
+        <div class="tab-items">
+          <div class="tab-item active-tab" content id="bestsellers">
+            <div class="products-container grid">
+              <div class="product-item">
+                <div class="product-banner">
+                  <a href="details.html" class="product-images">
+                    <img src="AssetFiles/images/Book-images/Little-Prince.jpg" alt="" 
+                    class="product-image default">
+
+                    <img src="AssetFiles/images/Book-images/Little-Prince.jpg" alt="" 
+                    class="product-image hover">
+                  </a>
+
+                  <div class="product-actions">
+                    <a href="#" class="action-btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+                  </div>
+
+                  <div class="product-badge hot-color">Hot</div>
+                </div>
+
+                <div class="product-content">
+                  <span class="product-category">Fantasy</span>
+                  <a href="details.html">
+                    <h3 class="product-title">Little Prince</h3>
+                  </a>
+                  <span class="product-author">Antoine de Saint-Exupéry</span>
+                  <div class="product-rating">
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                  </div>
+                  <div class="product-price flex">
+                    <span class="new-price">120,000T</span>
+                    <span class="old-price">135,000T</span>
+                  </div>
+
+                  <a href="#" 
+                  class="action-btn cart-btn" 
+                  aria-label="Add To Cart"
+                  >
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                  </a>
+
+                </div>
+              </div>
+
+              <div class="product-item">
+                <div class="product-banner">
+                  <a href="details.html" class="product-images">
+                    <img src="AssetFiles/images/Book-images/Atomic-Habits.jpg" alt="" 
+                    class="product-image default">
+
+                    <img src="AssetFiles/images/Book-images/Atomic-Habits.jpg" alt="" 
+                    class="product-image hover">
+                  </a>
+
+                  <div class="product-actions">
+                    <a href="#" class="action-btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+                  </div>
+
+                  <div class="product-badge discount-color">-10%</div>
+                </div>
+
+                <div class="product-content">
+                  <span class="product-category">Self Help</span>
+                  <a href="details.html">
+                    <h3 class="product-title">Atomic Habits</h3>
+                  </a>
+                  <span class="product-author">James Clear</span>
+                  <div class="product-rating">
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                  </div>
+                  <div class="product-price flex">
+                    <span class="new-price">135,000T</span>
+                    <span class="old-price">150,000T</span>
+                  </div>
+
+                  <a href="#" 
+                  class="action-btn cart-btn" 
+                  aria-label="Add To Cart"
+                  >
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                  </a>
+
+                </div>
+              </div>
+
+              <div class="product-item">
+                <div class="product-banner">
+                  <a href="details.html" class="product-images">
+                    <img src="AssetFiles/images/Book-images/Godkiller---The-Fallen-Gods-Trilogy.jpg" alt="" 
+                    class="product-image default">
+
+                    <img src="AssetFiles/images/Book-images/Godkiller---The-Fallen-Gods-Trilogy.jpg" alt="" 
+                    class="product-image hover">
+                  </a>
+
+                  <div class="product-actions">
+                    <a href="#" class="action-btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+                  </div>
+
+                  <div class="product-badge hot-color">Hot</div>
+                </div>
+
+                <div class="product-content">
+                  <span class="product-category">Crime</span>
+                  <a href="details.html">
+                    <h3 class="product-title">Godkiller-The Fallen Gods Trilogy</h3>
+                  </a>
+                  <span class="product-author">Roosh Rodrigez</span>
+                  <div class="product-rating">
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                  </div>
+                  <div class="product-price flex">
+                    <span class="new-price">180,000T</span>
+                    <span class="old-price">200,000T</span>
+                  </div>
+
+                  <a href="#" 
+                  class="action-btn cart-btn" 
+                  aria-label="Add To Cart"
+                  >
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                  </a>
+
+                </div>
+              </div>
+
+              <div class="product-item">
+                <div class="product-banner">
+                  <a href="details.html" class="product-images">
+                    <img src="AssetFiles/images/Book-images/The-Silent-Patient.jpg" alt="" 
+                    class="product-image default">
+
+                    <img src="AssetFiles/images/Book-images/The-Silent-Patient.jpg" alt="" 
+                    class="product-image hover">
+                  </a>
+
+                  <div class="product-actions">
+                    <a href="#" class="action-btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+                  </div>
+
+                  <div class="product-badge hot-color">Hot</div>
+                </div>
+
+                <div class="product-content">
+                  <span class="product-category">Classic</span>
+                  <a href="details.html">
+                    <h3 class="product-title">The Silent Patient</h3>
+                  </a>
+                  <span class="product-author">Alex Michaelides</span>
+                  <div class="product-rating">
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                  </div>
+                  <div class="product-price flex">
+                    <span class="new-price">120,000T</span>
+                    <span class="old-price">170,000T</span>
+                  </div>
+
+                  <a href="#" 
+                  class="action-btn cart-btn" 
+                  aria-label="Add To Cart"
+                  >
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                  </a>
+
+                </div>
+              </div>
+
+              <div class="product-item">
+                <div class="product-banner">
+                  <a href="details.html" class="product-images">
+                    <img src="AssetFiles/images/Book-images/Verity.jpg" alt="" 
+                    class="product-image default">
+
+                    <img src="AssetFiles/images/Book-images/Verity.jpg" alt="" 
+                    class="product-image hover">
+                  </a>
+
+                  <div class="product-actions">
+                    <a href="#" class="action-btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+                  </div>
+
+                  <div class="product-badge hot-color">Hot</div>
+                </div>
+
+                <div class="product-content">
+                  <span class="product-category">Literary</span>
+                  <a href="details.html">
+                    <h3 class="product-title">Verity</h3>
+                  </a>
+                  <span class="product-author">Emma Wring</span>
+                  <div class="product-rating">
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                  </div>
+                  <div class="product-price flex">
+                    <span class="new-price">150,000T</span>
+                    <span class="old-price">175,000T</span>
+                  </div>
+
+                  <a href="#" 
+                  class="action-btn cart-btn" 
+                  aria-label="Add To Cart"
+                  >
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                  </a>
+
+                </div>
+              </div>
+
+              <div class="product-item">
+                <div class="product-banner">
+                  <a href="details.html" class="product-images">
+                    <img src="AssetFiles/images/Book-images/A-Game-of-Thrones-The-Illustrated-Edition.jpg" alt="" 
+                    class="product-image default">
+
+                    <img src="AssetFiles/images/Book-images/A-Game-of-Thrones-The-Illustrated-Edition.jpg" alt="" 
+                    class="product-image hover">
+                  </a>
+
+                  <div class="product-actions">
+                    <a href="#" class="action-btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+                  </div>
+
+                  <div class="product-badge discount-color">-10%</div>
+                </div>
+
+                <div class="product-content">
+                  <span class="product-category">Historical</span>
+                  <a href="details.html">
+                    <h3 class="product-title">Game of Thrones-The Illustrated Edition</h3>
+                  </a>
+                  <span class="product-author">David Grann</span>
+                  <div class="product-rating">
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                  </div>
+                  <div class="product-price flex">
+                    <span class="new-price">225,000T</span>
+                    <span class="old-price">250,000T</span>
+                  </div>
+
+                  <a href="#" 
+                  class="action-btn cart-btn" 
+                  aria-label="Add To Cart"
+                  >
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                  </a>
+
+                </div>
+              </div>
+
+              <div class="product-item">
+                <div class="product-banner">
+                  <a href="details.html" class="product-images">
+                    <img src="AssetFiles/images/Book-images/Babel.jpg" alt="" 
+                    class="product-image default">
+
+                    <img src="AssetFiles/images/Book-images/Babel.jpg" alt="" 
+                    class="product-image hover">
+                  </a>
+
+                  <div class="product-actions">
+                    <a href="#" class="action-btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+                  </div>
+
+                  <div class="product-badge discount-color">-10%</div>
+                </div>
+
+                <div class="product-content">
+                  <span class="product-category">Crime</span>
+                  <a href="details.html">
+                    <h3 class="product-title">Babel</h3>
+                  </a>
+                  <span class="product-author">Michael Oranta</span>
+                  <div class="product-rating">
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                  </div>
+                  <div class="product-price flex">
+                    <span class="new-price">198,000T</span>
+                    <span class="old-price">220,000T</span>
+                  </div>
+
+                  <a href="#" 
+                  class="action-btn cart-btn" 
+                  aria-label="Add To Cart"
+                  >
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                  </a>
+
+                </div>
+              </div>
+
+              <div class="product-item">
+                <div class="product-banner">
+                  <a href="details.html" class="product-images">
+                    <img src="AssetFiles/images/Book-images/The-Housemaid.jpg" alt="" 
+                    class="product-image default">
+
+                    <img src="AssetFiles/images/Book-images/The-Housemaid.jpg" alt="" 
+                    class="product-image hover">
+                  </a>
+
+                  <div class="product-actions">
+                    <a href="#" class="action-btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+                  </div>
+
+                  <div class="product-badge discount-color">-15%</div>
+                </div>
+
+                <div class="product-content">
+                  <span class="product-category">Mystery</span>
+                  <a href="details.html">
+                    <h3 class="product-title">The Housemaid</h3>
+                  </a>
+                  <span class="product-author">Freida McFadden</span>
+                  <div class="product-rating">
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                  </div>
+                  <div class="product-price flex">
+                    <span class="new-price">140,000T</span>
+                    <span class="old-price">165,000T</span>
+                  </div>
+
+                  <a href="#" 
+                  class="action-btn cart-btn" 
+                  aria-label="Add To Cart"
+                  >
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                  </a>
+
+                </div>
+              </div>
+
+              <div class="product-item">
+                <div class="product-banner">
+                  <a href="details.html" class="product-images">
+                    <img src="AssetFiles/images/Book-images/Awesome-Facts-for-Potter-Fans.jpg" alt="" 
+                    class="product-image default">
+
+                    <img src="AssetFiles/images/Book-images/Awesome-Facts-for-Potter-Fans.jpg" alt="" 
+                    class="product-image hover">
+                  </a>
+
+                  <div class="product-actions">
+                    <a href="#" class="action-btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+                  </div>
+
+                  <div class="product-badge discount-color">-20%</div>
+                </div>
+
+                <div class="product-content">
+                  <span class="product-category">Fantasy</span>
+                  <a href="details.html">
+                    <h3 class="product-title">Awesome Facts for Potter Fans</h3>
+                  </a>
+                  <span class="product-author">Alex Jard</span>
+                  <div class="product-rating">
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                  </div>
+                  <div class="product-price flex">
+                    <span class="new-price">240,000T</span>
+                    <span class="old-price">300,000T</span>
+                  </div>
+
+                  <a href="#" 
+                  class="action-btn cart-btn" 
+                  aria-label="Add To Cart"
+                  >
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                  </a>
+
+                </div>
+              </div>
+
+              <div class="product-item">
+                <div class="product-banner">
+                  <a href="details.html" class="product-images">
+                    <img src="AssetFiles/images/Book-images/The-Wager.jpg" alt="" 
+                    class="product-image default">
+
+                    <img src="AssetFiles/images/Book-images/The-Wager.jpg" alt="" 
+                    class="product-image hover">
+                  </a>
+
+                  <div class="product-actions">
+                    <a href="#" class="action-btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+                  </div>
+
+                  <div class="product-badge hot-color">Hot</div>
+                </div>
+
+                <div class="product-content">
+                  <span class="product-category">Classic</span>
+                  <a href="details.html">
+                    <h3 class="product-title">The Wager</h3>
+                  </a>
+                  <span class="product-author">James Watson</span>
+                  <div class="product-rating">
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                  </div>
+                  <div class="product-price flex">
+                    <span class="new-price">120,000T</span>
+                    <span class="old-price">170,000T</span>
+                  </div>
+
+                  <a href="#" 
+                  class="action-btn cart-btn" 
+                  aria-label="Add To Cart"
+                  >
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                  </a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="tab-item" content id="newest">
+            <div class="products-container grid">
+              <div class="product-item">
+                <div class="product-banner">
+                  <a href="details.html" class="product-images">
+                    <img src="AssetFiles/images/Book-images/A-Court-of-Silver-Flames.jpg" alt="" 
+                    class="product-image default">
+
+                    <img src="AssetFiles/images/Book-images/A-Court-of-Silver-Flames.jpg" alt="" 
+                    class="product-image hover">
+                  </a>
+
+                  <div class="product-actions">
+                    <a href="#" class="action-btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+                  </div>
+
+                  <div class="product-badge hot-color">Hot</div>
+                </div>
+
+                <div class="product-content">
+                  <span class="product-category">Horror</span>
+                  <a href="details.html">
+                    <h3 class="product-title">A Court of Silver Flames</h3>
+                  </a>
+                  <span class="product-author">Sarah J.Mass</span>
+                  <div class="product-rating">
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                  </div>
+                  <div class="product-price flex">
+                    <span class="new-price">210,000T</span>
+                    <span class="old-price">220,000T</span>
+                  </div>
+
+                  <a href="#" 
+                  class="action-btn cart-btn" 
+                  aria-label="Add To Cart"
+                  >
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                  </a>
+
+                </div>
+              </div>
+
+              <div class="product-item">
+                <div class="product-banner">
+                  <a href="details.html" class="product-images">
+                    <img src="AssetFiles/images/Book-images/Atomic-Habits.jpg" alt="" 
+                    class="product-image default">
+
+                    <img src="AssetFiles/images/Book-images/Atomic-Habits.jpg" alt="" 
+                    class="product-image hover">
+                  </a>
+
+                  <div class="product-actions">
+                    <a href="#" class="action-btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+                  </div>
+
+                  <div class="product-badge discount-color">-10%</div>
+                </div>
+
+                <div class="product-content">
+                  <span class="product-category">Self Help</span>
+                  <a href="details.html">
+                    <h3 class="product-title">Atomic Habits</h3>
+                  </a>
+                  <span class="product-author">James Clear</span>
+                  <div class="product-rating">
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                  </div>
+                  <div class="product-price flex">
+                    <span class="new-price">135,000T</span>
+                    <span class="old-price">150,000T</span>
+                  </div>
+
+                  <a href="#" 
+                  class="action-btn cart-btn" 
+                  aria-label="Add To Cart"
+                  >
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                  </a>
+
+                </div>
+              </div>
+
+              <div class="product-item">
+                <div class="product-banner">
+                  <a href="details.html" class="product-images">
+                    <img src="AssetFiles/images/Book-images/A-Little-Life.jpg" alt="" 
+                    class="product-image default">
+
+                    <img src="AssetFiles/images/Book-images/A-Little-Life.jpg" alt="" 
+                    class="product-image hover">
+                  </a>
+
+                  <div class="product-actions">
+                    <a href="#" class="action-btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+                  </div>
+
+                  <div class="product-badge discount-color">-10%</div>
+                </div>
+
+                <div class="product-content">
+                  <span class="product-category">Classic</span>
+                  <a href="details.html">
+                    <h3 class="product-title">A Little Life</h3>
+                  </a>
+                  <span class="product-author">Hanya Yanaghiara</span>
+                  <div class="product-rating">
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                  </div>
+                  <div class="product-price flex">
+                    <span class="new-price">176,000T</span>
+                    <span class="old-price">195,000T</span>
+                  </div>
+
+                  <a href="#" 
+                  class="action-btn cart-btn" 
+                  aria-label="Add To Cart"
+                  >
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                  </a>
+
+                </div>
+              </div>
+
+              <div class="product-item">
+                <div class="product-banner">
+                  <a href="details.html" class="product-images">
+                    <img src="AssetFiles/images/Book-images/The-Psychology-of-Money.jpg" alt="" 
+                    class="product-image default">
+
+                    <img src="AssetFiles/images/Book-images/The-Psychology-of-Money.jpg" alt="" 
+                    class="product-image hover">
+                  </a>
+
+                  <div class="product-actions">
+                    <a href="#" class="action-btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+                  </div>
+
+                  <div class="product-badge discount-color">-22%</div>
+                </div>
+
+                <div class="product-content">
+                  <span class="product-category">Essays</span>
+                  <a href="details.html">
+                    <h3 class="product-title">The Psychology of Money</h3>
+                  </a>
+                  <span class="product-author">Morgan Housel</span>
+                  <div class="product-rating">
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                  </div>
+                  <div class="product-price flex">
+                    <span class="new-price">98,000T</span>
+                    <span class="old-price">120,000T</span>
+                  </div>
+
+                  <a href="#" 
+                  class="action-btn cart-btn" 
+                  aria-label="Add To Cart"
+                  >
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                  </a>
+
+                </div>
+              </div>
+
+              <div class="product-item">
+                <div class="product-banner">
+                  <a href="details.html" class="product-images">
+                    <img src="AssetFiles/images/Book-images/Verity.jpg" alt="" 
+                    class="product-image default">
+
+                    <img src="AssetFiles/images/Book-images/Verity.jpg" alt="" 
+                    class="product-image hover">
+                  </a>
+
+                  <div class="product-actions">
+                    <a href="#" class="action-btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+                  </div>
+
+                  <div class="product-badge discount-color">-15%</div>
+                </div>
+
+                <div class="product-content">
+                  <span class="product-category">Historical</span>
+                  <a href="details.html">
+                    <h3 class="product-title">Verity</h3>
+                  </a>
+                  <span class="product-author">Colleen Hoover</span>
+                  <div class="product-rating">
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                  </div>
+                  <div class="product-price flex">
+                    <span class="new-price">148,000T</span>
+                    <span class="old-price">170,000T</span>
+                  </div>
+
+                  <a href="#" 
+                  class="action-btn cart-btn" 
+                  aria-label="Add To Cart"
+                  >
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                  </a>
+
+                </div>
+              </div>
+
+              <div class="product-item">
+                <div class="product-banner">
+                  <a href="details.html" class="product-images">
+                    <img src="AssetFiles/images/Book-images/Babel.jpg" alt="" 
+                    class="product-image default">
+
+                    <img src="AssetFiles/images/Book-images/Babel.jpg" alt="" 
+                    class="product-image hover">
+                  </a>
+
+                  <div class="product-actions">
+                    <a href="#" class="action-btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+                  </div>
+
+                  <div class="product-badge discount-color">-10%</div>
+                </div>
+
+                <div class="product-content">
+                  <span class="product-category">Crime</span>
+                  <a href="details.html">
+                    <h3 class="product-title">Babel</h3>
+                  </a>
+                  <span class="product-author">Michael Oranta</span>
+                  <div class="product-rating">
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                  </div>
+                  <div class="product-price flex">
+                    <span class="new-price">198,000T</span>
+                    <span class="old-price">220,000T</span>
+                  </div>
+
+                  <a href="#" 
+                  class="action-btn cart-btn" 
+                  aria-label="Add To Cart"
+                  >
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                  </a>
+
+                </div>
+              </div>
+
+              <div class="product-item">
+                <div class="product-banner">
+                  <a href="details.html" class="product-images">
+                    <img src="AssetFiles/images/Book-images/Awesome-Facts-for-Potter-Fans.jpg" alt="" 
+                    class="product-image default">
+
+                    <img src="AssetFiles/images/Book-images/Awesome-Facts-for-Potter-Fans.jpg" alt="" 
+                    class="product-image hover">
+                  </a>
+
+                  <div class="product-actions">
+                    <a href="#" class="action-btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+                  </div>
+
+                  <div class="product-badge discount-color">-20%</div>
+                </div>
+
+                <div class="product-content">
+                  <span class="product-category">Fantasy</span>
+                  <a href="details.html">
+                    <h3 class="product-title">Awesome Facts for Potter Fans</h3>
+                  </a>
+                  <span class="product-author">Alex Jard</span>
+                  <div class="product-rating">
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                  </div>
+                  <div class="product-price flex">
+                    <span class="new-price">240,000T</span>
+                    <span class="old-price">300,000T</span>
+                  </div>
+
+                  <a href="#" 
+                  class="action-btn cart-btn" 
+                  aria-label="Add To Cart"
+                  >
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                  </a>
+
+                </div>
+              </div>
+
+              <div class="product-item">
+                <div class="product-banner">
+                  <a href="details.html" class="product-images">
+                    <img src="AssetFiles/images/Book-images/The-Wager.jpg" alt="" 
+                    class="product-image default">
+
+                    <img src="AssetFiles/images/Book-images/The-Wager.jpg" alt="" 
+                    class="product-image hover">
+                  </a>
+
+                  <div class="product-actions">
+                    <a href="#" class="action-btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+                  </div>
+
+                  <div class="product-badge hot-color">Hot</div>
+                </div>
+
+                <div class="product-content">
+                  <span class="product-category">Classic</span>
+                  <a href="details.html">
+                    <h3 class="product-title">The Wager</h3>
+                  </a>
+                  <span class="product-author">James Watson</span>
+                  <div class="product-rating">
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                  </div>
+                  <div class="product-price flex">
+                    <span class="new-price">120,000T</span>
+                    <span class="old-price">170,000T</span>
+                  </div>
+
+                  <a href="#" 
+                  class="action-btn cart-btn" 
+                  aria-label="Add To Cart"
+                  >
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                  </a>
+
+                </div>
+              </div>
+
+              <div class="product-item">
+                <div class="product-banner">
+                  <a href="details.html" class="product-images">
+                    <img src="AssetFiles/images/Book-images/Godkiller---The-Fallen-Gods-Trilogy.jpg" alt="" 
+                    class="product-image default">
+
+                    <img src="AssetFiles/images/Book-images/Godkiller---The-Fallen-Gods-Trilogy.jpg" alt="" 
+                    class="product-image hover">
+                  </a>
+
+                  <div class="product-actions">
+                    <a href="#" class="action-btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+                  </div>
+
+                  <div class="product-badge hot-color">Hot</div>
+                </div>
+
+                <div class="product-content">
+                  <span class="product-category">Crime</span>
+                  <a href="details.html">
+                    <h3 class="product-title">Godkiller-The Fallen Gods Trilogy</h3>
+                  </a>
+                  <span class="product-author">Roosh Rodrigez</span>
+                  <div class="product-rating">
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                  </div>
+                  <div class="product-price flex">
+                    <span class="new-price">180,000T</span>
+                    <span class="old-price">200,000T</span>
+                  </div>
+
+                  <a href="#" 
+                  class="action-btn cart-btn" 
+                  aria-label="Add To Cart"
+                  >
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                  </a>
+
+                </div>
+              </div>
+
+              <div class="product-item">
+                <div class="product-banner">
+                  <a href="details.html" class="product-images">
+                    <img src="AssetFiles/images/Book-images/The-Silent-Patient.jpg" alt="" 
+                    class="product-image default">
+
+                    <img src="AssetFiles/images/Book-images/The-Silent-Patient.jpg" alt="" 
+                    class="product-image hover">
+                  </a>
+
+                  <div class="product-actions">
+                    <a href="#" class="action-btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+                  </div>
+
+                  <div class="product-badge hot-color">Hot</div>
+                </div>
+
+                <div class="product-content">
+                  <span class="product-category">Classic</span>
+                  <a href="details.html">
+                    <h3 class="product-title">The Silent Patient</h3>
+                  </a>
+                  <span class="product-author">Alex Michaelides</span>
+                  <div class="product-rating">
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                  </div>
+                  <div class="product-price flex">
+                    <span class="new-price">120,000T</span>
+                    <span class="old-price">170,000T</span>
+                  </div>
+
+                  <a href="#" 
+                  class="action-btn cart-btn" 
+                  aria-label="Add To Cart"
+                  >
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                  </a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-item" content id="most-popular">
+            <div class="products-container grid">
+              <div class="product-item">
+                <div class="product-banner">
+                  <a href="details.html" class="product-images">
+                    <img src="AssetFiles/images/Book-images/Little-Prince.jpg" alt="" 
+                    class="product-image default">
+
+                    <img src="AssetFiles/images/Book-images/Little-Prince.jpg" alt="" 
+                    class="product-image hover">
+                  </a>
+
+                  <div class="product-actions">
+                    <a href="#" class="action-btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+                  </div>
+
+                  <div class="product-badge hot-color">Hot</div>
+                </div>
+
+                <div class="product-content">
+                  <span class="product-category">Fantasy</span>
+                  <a href="details.html">
+                    <h3 class="product-title">Little Prince</h3>
+                  </a>
+                  <span class="product-author">Antoine de Saint-Exupéry</span>
+                  <div class="product-rating">
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                  </div>
+                  <div class="product-price flex">
+                    <span class="new-price">120,000T</span>
+                    <span class="old-price">135,000T</span>
+                  </div>
+
+                  <a href="#" 
+                  class="action-btn cart-btn" 
+                  aria-label="Add To Cart"
+                  >
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                  </a>
+
+                </div>
+              </div>
+
+              <div class="product-item">
+                <div class="product-banner">
+                  <a href="details.html" class="product-images">
+                    <img src="AssetFiles/images/Book-images/Atomic-Habits.jpg" alt="" 
+                    class="product-image default">
+
+                    <img src="AssetFiles/images/Book-images/Atomic-Habits.jpg" alt="" 
+                    class="product-image hover">
+                  </a>
+
+                  <div class="product-actions">
+                    <a href="#" class="action-btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+                  </div>
+
+                  <div class="product-badge discount-color">-10%</div>
+                </div>
+
+                <div class="product-content">
+                  <span class="product-category">Self Help</span>
+                  <a href="details.html">
+                    <h3 class="product-title">Atomic Habits</h3>
+                  </a>
+                  <span class="product-author">James Clear</span>
+                  <div class="product-rating">
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                  </div>
+                  <div class="product-price flex">
+                    <span class="new-price">135,000T</span>
+                    <span class="old-price">150,000T</span>
+                  </div>
+
+                  <a href="#" 
+                  class="action-btn cart-btn" 
+                  aria-label="Add To Cart"
+                  >
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                  </a>
+
+                </div>
+              </div>
+
+              <div class="product-item">
+                <div class="product-banner">
+                  <a href="details.html" class="product-images">
+                    <img src="AssetFiles/images/Book-images/Godkiller---The-Fallen-Gods-Trilogy.jpg" alt="" 
+                    class="product-image default">
+
+                    <img src="AssetFiles/images/Book-images/Godkiller---The-Fallen-Gods-Trilogy.jpg" alt="" 
+                    class="product-image hover">
+                  </a>
+
+                  <div class="product-actions">
+                    <a href="#" class="action-btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+                  </div>
+
+                  <div class="product-badge hot-color">Hot</div>
+                </div>
+
+                <div class="product-content">
+                  <span class="product-category">Crime</span>
+                  <a href="details.html">
+                    <h3 class="product-title">Godkiller-The Fallen Gods Trilogy</h3>
+                  </a>
+                  <span class="product-author">Roosh Rodrigez</span>
+                  <div class="product-rating">
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                  </div>
+                  <div class="product-price flex">
+                    <span class="new-price">180,000T</span>
+                    <span class="old-price">200,000T</span>
+                  </div>
+
+                  <a href="#" 
+                  class="action-btn cart-btn" 
+                  aria-label="Add To Cart"
+                  >
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                  </a>
+
+                </div>
+              </div>
+
+              <div class="product-item">
+                <div class="product-banner">
+                  <a href="details.html" class="product-images">
+                    <img src="AssetFiles/images/Book-images/Verity.jpg" alt="" 
+                    class="product-image default">
+
+                    <img src="AssetFiles/images/Book-images/Verity.jpg" alt="" 
+                    class="product-image hover">
+                  </a>
+
+                  <div class="product-actions">
+                    <a href="#" class="action-btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+                  </div>
+
+                  <div class="product-badge hot-color">Hot</div>
+                </div>
+
+                <div class="product-content">
+                  <span class="product-category">Literary</span>
+                  <a href="details.html">
+                    <h3 class="product-title">Verity</h3>
+                  </a>
+                  <span class="product-author">Emma Wring</span>
+                  <div class="product-rating">
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                  </div>
+                  <div class="product-price flex">
+                    <span class="new-price">150,000T</span>
+                    <span class="old-price">175,000T</span>
+                  </div>
+
+                  <a href="#" 
+                  class="action-btn cart-btn" 
+                  aria-label="Add To Cart"
+                  >
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                  </a>
+
+                </div>
+              </div>
+
+              <div class="product-item">
+                <div class="product-banner">
+                  <a href="details.html" class="product-images">
+                    <img src="AssetFiles/images/Book-images/A-Game-of-Thrones-The-Illustrated-Edition.jpg" alt="" 
+                    class="product-image default">
+
+                    <img src="AssetFiles/images/Book-images/A-Game-of-Thrones-The-Illustrated-Edition.jpg" alt="" 
+                    class="product-image hover">
+                  </a>
+
+                  <div class="product-actions">
+                    <a href="#" class="action-btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+                  </div>
+
+                  <div class="product-badge discount-color">-10%</div>
+                </div>
+
+                <div class="product-content">
+                  <span class="product-category">Historical</span>
+                  <a href="details.html">
+                    <h3 class="product-title">Game of Thrones-The Illustrated Edition</h3>
+                  </a>
+                  <span class="product-author">David Grann</span>
+                  <div class="product-rating">
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                  </div>
+                  <div class="product-price flex">
+                    <span class="new-price">225,000T</span>
+                    <span class="old-price">250,000T</span>
+                  </div>
+
+                  <a href="#" 
+                  class="action-btn cart-btn" 
+                  aria-label="Add To Cart"
+                  >
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                  </a>
+
+                </div>
+              </div>
+
+              <div class="product-item">
+                <div class="product-banner">
+                  <a href="details.html" class="product-images">
+                    <img src="AssetFiles/images/Book-images/A-Little-Life.jpg" alt="" 
+                    class="product-image default">
+
+                    <img src="AssetFiles/images/Book-images/A-Little-Life.jpg" alt="" 
+                    class="product-image hover">
+                  </a>
+
+                  <div class="product-actions">
+                    <a href="#" class="action-btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+                  </div>
+
+                  <div class="product-badge discount-color">-10%</div>
+                </div>
+
+                <div class="product-content">
+                  <span class="product-category">Classic</span>
+                  <a href="details.html">
+                    <h3 class="product-title">A Little Life</h3>
+                  </a>
+                  <span class="product-author">Hanya Yanaghiara</span>
+                  <div class="product-rating">
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                  </div>
+                  <div class="product-price flex">
+                    <span class="new-price">176,000T</span>
+                    <span class="old-price">195,000T</span>
+                  </div>
+
+                  <a href="#" 
+                  class="action-btn cart-btn" 
+                  aria-label="Add To Cart"
+                  >
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                  </a>
+
+                </div>
+              </div>
+
+              <div class="product-item">
+                <div class="product-banner">
+                  <a href="details.html" class="product-images">
+                    <img src="AssetFiles/images/Book-images/The-Psychology-of-Money.jpg" alt="" 
+                    class="product-image default">
+
+                    <img src="AssetFiles/images/Book-images/The-Psychology-of-Money.jpg" alt="" 
+                    class="product-image hover">
+                  </a>
+
+                  <div class="product-actions">
+                    <a href="#" class="action-btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+                  </div>
+
+                  <div class="product-badge discount-color">-22%</div>
+                </div>
+
+                <div class="product-content">
+                  <span class="product-category">Essays</span>
+                  <a href="details.html">
+                    <h3 class="product-title">The Psychology of Money</h3>
+                  </a>
+                  <span class="product-author">Morgan Housel</span>
+                  <div class="product-rating">
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                  </div>
+                  <div class="product-price flex">
+                    <span class="new-price">98,000T</span>
+                    <span class="old-price">120,000T</span>
+                  </div>
+
+                  <a href="#" 
+                  class="action-btn cart-btn" 
+                  aria-label="Add To Cart"
+                  >
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                  </a>
+
+                </div>
+              </div>
+
+              <div class="product-item">
+                <div class="product-banner">
+                  <a href="details.html" class="product-images">
+                    <img src="AssetFiles/images/Book-images/Babel.jpg" alt="" 
+                    class="product-image default">
+
+                    <img src="AssetFiles/images/Book-images/Babel.jpg" alt="" 
+                    class="product-image hover">
+                  </a>
+
+                  <div class="product-actions">
+                    <a href="#" class="action-btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+                  </div>
+
+                  <div class="product-badge discount-color">-10%</div>
+                </div>
+
+                <div class="product-content">
+                  <span class="product-category">Crime</span>
+                  <a href="details.html">
+                    <h3 class="product-title">Babel</h3>
+                  </a>
+                  <span class="product-author">Michael Oranta</span>
+                  <div class="product-rating">
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                  </div>
+                  <div class="product-price flex">
+                    <span class="new-price">198,000T</span>
+                    <span class="old-price">220,000T</span>
+                  </div>
+
+                  <a href="#" 
+                  class="action-btn cart-btn" 
+                  aria-label="Add To Cart"
+                  >
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                  </a>
+
+                </div>
+              </div>
+
+              <div class="product-item">
+                <div class="product-banner">
+                  <a href="details.html" class="product-images">
+                    <img src="AssetFiles/images/Book-images/Awesome-Facts-for-Potter-Fans.jpg" alt="" 
+                    class="product-image default">
+
+                    <img src="AssetFiles/images/Book-images/Awesome-Facts-for-Potter-Fans.jpg" alt="" 
+                    class="product-image hover">
+                  </a>
+
+                  <div class="product-actions">
+                    <a href="#" class="action-btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+                  </div>
+
+                  <div class="product-badge discount-color">-20%</div>
+                </div>
+
+                <div class="product-content">
+                  <span class="product-category">Fantasy</span>
+                  <a href="details.html">
+                    <h3 class="product-title">Awesome Facts for Potter Fans</h3>
+                  </a>
+                  <span class="product-author">Alex Jard</span>
+                  <div class="product-rating">
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                  </div>
+                  <div class="product-price flex">
+                    <span class="new-price">240,000T</span>
+                    <span class="old-price">300,000T</span>
+                  </div>
+
+                  <a href="#" 
+                  class="action-btn cart-btn" 
+                  aria-label="Add To Cart"
+                  >
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                  </a>
+
+                </div>
+              </div>
+
+              <div class="product-item">
+                <div class="product-banner">
+                  <a href="details.html" class="product-images">
+                    <img src="AssetFiles/images/Book-images/The-Wager.jpg" alt="" 
+                    class="product-image default">
+
+                    <img src="AssetFiles/images/Book-images/The-Wager.jpg" alt="" 
+                    class="product-image hover">
+                  </a>
+
+                  <div class="product-actions">
+                    <a href="#" class="action-btn" aria-label="Quick View">
+                      <i class="fi fi-rs-eye"></i>
+                    </a>
+
+                    <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                      <i class="fi fi-rs-heart"></i>
+                    </a>
+                  </div>
+
+                  <div class="product-badge hot-color">Hot</div>
+                </div>
+
+                <div class="product-content">
+                  <span class="product-category">Classic</span>
+                  <a href="details.html">
+                    <h3 class="product-title">The Wager</h3>
+                  </a>
+                  <span class="product-author">James Watson</span>
+                  <div class="product-rating">
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                    <i class="fi fi-sr-star"></i>
+                  </div>
+                  <div class="product-price flex">
+                    <span class="new-price">120,000T</span>
+                    <span class="old-price">170,000T</span>
+                  </div>
+
+                  <a href="#" 
+                  class="action-btn cart-btn" 
+                  aria-label="Add To Cart"
+                  >
+                    <i class="fi fi-rs-shopping-bag-add"></i>
+                  </a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+      <!--=============== DEALS ===============-->
+      <section class="deals section"></section>
+
+      <!--=============== WEEKLY RECOMMEND ===============-->
+      <section class="weekly-recommend container section">
+        <h3 class="section-title"> <span>Weekly</span> Recommend</h3>
+
+        <div class="recommend-container swiper">
+          <div class="swiper-wrapper">
+            <div class="product-item swiper-slide">
+              <div class="product-banner">
+                <a href="details.html" class="product-images">
+                  <img src="AssetFiles/images/Book-images/A-Court-of-Silver-Flames.jpg" alt="" 
+                  class="product-image default">
+
+                  <img src="AssetFiles/images/Book-images/A-Court-of-Silver-Flames.jpg" alt="" 
+                  class="product-image hover">
+                </a>
+
+                <div class="product-actions">
+                  <a href="#" class="action-btn" aria-label="Quick View">
+                    <i class="fi fi-rs-eye"></i>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                    <i class="fi fi-rs-heart"></i>
+                  </a>
+                </div>
+
+                <div class="product-badge hot-color">Hot</div>
+              </div>
+
+              <div class="product-content">
+                <span class="product-category">Horror</span>
+                <a href="details.html">
+                  <h3 class="product-title">A Court of Silver Flames</h3>
+                </a>
+                <span class="product-author">Sarah J.Mass</span>
+                <div class="product-rating">
+                  <i class="fi fi-sr-star"></i>
+                  <i class="fi fi-sr-star"></i>
+                  <i class="fi fi-sr-star"></i>
+                  <i class="fi fi-sr-star"></i>
+                  <i class="fi fi-sr-star"></i>
+                </div>
+                <div class="product-price flex">
+                  <span class="new-price">210,000T</span>
+                  <span class="old-price">220,000T</span>
+                </div>
+
+                <a href="#" 
+                class="action-btn cart-btn" 
+                aria-label="Add To Cart"
+                >
+                  <i class="fi fi-rs-shopping-bag-add"></i>
+                </a>
+
+              </div>
+            </div>
+
+            <div class="product-item swiper-slide">
+              <div class="product-banner">
+                <a href="details.html" class="product-images">
+                  <img src="AssetFiles/images/Book-images/Atomic-Habits.jpg" alt="" 
+                  class="product-image default">
+
+                  <img src="AssetFiles/images/Book-images/Atomic-Habits.jpg" alt="" 
+                  class="product-image hover">
+                </a>
+
+                <div class="product-actions">
+                  <a href="#" class="action-btn" aria-label="Quick View">
+                    <i class="fi fi-rs-eye"></i>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                    <i class="fi fi-rs-heart"></i>
+                  </a>
+                </div>
+
+                <div class="product-badge discount-color">-10%</div>
+              </div>
+
+              <div class="product-content">
+                <span class="product-category">Self Help</span>
+                <a href="details.html">
+                  <h3 class="product-title">Atomic Habits</h3>
+                </a>
+                <span class="product-author">James Clear</span>
+                <div class="product-rating">
+                  <i class="fi fi-sr-star"></i>
+                  <i class="fi fi-sr-star"></i>
+                  <i class="fi fi-sr-star"></i>
+                  <i class="fi fi-sr-star"></i>
+                  <i class="fi fi-sr-star"></i>
+                </div>
+                <div class="product-price flex">
+                  <span class="new-price">135,000T</span>
+                  <span class="old-price">150,000T</span>
+                </div>
+
+                <a href="#" 
+                class="action-btn cart-btn" 
+                aria-label="Add To Cart"
+                >
+                  <i class="fi fi-rs-shopping-bag-add"></i>
+                </a>
+
+              </div>
+            </div>
+
+            <div class="product-item swiper-slide">
+              <div class="product-banner">
+                <a href="details.html" class="product-images">
+                  <img src="AssetFiles/images/Book-images/A-Little-Life.jpg" alt="" 
+                  class="product-image default">
+
+                  <img src="AssetFiles/images/Book-images/A-Little-Life.jpg" alt="" 
+                  class="product-image hover">
+                </a>
+
+                <div class="product-actions">
+                  <a href="#" class="action-btn" aria-label="Quick View">
+                    <i class="fi fi-rs-eye"></i>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                    <i class="fi fi-rs-heart"></i>
+                  </a>
+                </div>
+
+                <div class="product-badge discount-color">-10%</div>
+              </div>
+
+              <div class="product-content">
+                <span class="product-category">Classic</span>
+                <a href="details.html">
+                  <h3 class="product-title">A Little Life</h3>
+                </a>
+                <span class="product-author">Hanya Yanaghiara</span>
+                <div class="product-rating">
+                  <i class="fi fi-sr-star"></i>
+                  <i class="fi fi-sr-star"></i>
+                  <i class="fi fi-sr-star"></i>
+                  <i class="fi fi-sr-star"></i>
+                  <i class="fi fi-sr-star"></i>
+                </div>
+                <div class="product-price flex">
+                  <span class="new-price">176,000T</span>
+                  <span class="old-price">195,000T</span>
+                </div>
+
+                <a href="#" 
+                class="action-btn cart-btn" 
+                aria-label="Add To Cart"
+                >
+                  <i class="fi fi-rs-shopping-bag-add"></i>
+                </a>
+
+              </div>
+            </div>
+
+            <div class="product-item swiper-slide">
+              <div class="product-banner">
+                <a href="details.html" class="product-images">
+                  <img src="AssetFiles/images/Book-images/The-Psychology-of-Money.jpg" alt="" 
+                  class="product-image default">
+
+                  <img src="AssetFiles/images/Book-images/The-Psychology-of-Money.jpg" alt="" 
+                  class="product-image hover">
+                </a>
+
+                <div class="product-actions">
+                  <a href="#" class="action-btn" aria-label="Quick View">
+                    <i class="fi fi-rs-eye"></i>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                    <i class="fi fi-rs-heart"></i>
+                  </a>
+                </div>
+
+                <div class="product-badge discount-color">-22%</div>
+              </div>
+
+              <div class="product-content">
+                <span class="product-category">Essays</span>
+                <a href="details.html">
+                  <h3 class="product-title">The Psychology of Money</h3>
+                </a>
+                <span class="product-author">Morgan Housel</span>
+                <div class="product-rating">
+                  <i class="fi fi-sr-star"></i>
+                  <i class="fi fi-sr-star"></i>
+                  <i class="fi fi-sr-star"></i>
+                  <i class="fi fi-sr-star"></i>
+                  <i class="fi fi-sr-star"></i>
+                </div>
+                <div class="product-price flex">
+                  <span class="new-price">98,000T</span>
+                  <span class="old-price">120,000T</span>
+                </div>
+
+                <a href="#" 
+                class="action-btn cart-btn" 
+                aria-label="Add To Cart"
+                >
+                  <i class="fi fi-rs-shopping-bag-add"></i>
+                </a>
+
+              </div>
+            </div>
+
+            <div class="product-item swiper-slide">
+              <div class="product-banner">
+                <a href="details.html" class="product-images">
+                  <img src="AssetFiles/images/Book-images/Verity.jpg" alt="" 
+                  class="product-image default">
+
+                  <img src="AssetFiles/images/Book-images/Verity.jpg" alt="" 
+                  class="product-image hover">
+                </a>
+
+                <div class="product-actions">
+                  <a href="#" class="action-btn" aria-label="Quick View">
+                    <i class="fi fi-rs-eye"></i>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                    <i class="fi fi-rs-heart"></i>
+                  </a>
+                </div>
+
+                <div class="product-badge discount-color">-15%</div>
+              </div>
+
+              <div class="product-content">
+                <span class="product-category">Historical</span>
+                <a href="details.html">
+                  <h3 class="product-title">Verity</h3>
+                </a>
+                <span class="product-author">Colleen Hoover</span>
+                <div class="product-rating">
+                  <i class="fi fi-sr-star"></i>
+                  <i class="fi fi-sr-star"></i>
+                  <i class="fi fi-sr-star"></i>
+                  <i class="fi fi-sr-star"></i>
+                  <i class="fi fi-sr-star"></i>
+                </div>
+                <div class="product-price flex">
+                  <span class="new-price">148,000T</span>
+                  <span class="old-price">170,000T</span>
+                </div>
+
+                <a href="#" 
+                class="action-btn cart-btn" 
+                aria-label="Add To Cart"
+                >
+                  <i class="fi fi-rs-shopping-bag-add"></i>
+                </a>
+
+              </div>
+            </div>
+
+            <div class="product-item swiper-slide">
+              <div class="product-banner">
+                <a href="details.html" class="product-images">
+                  <img src="AssetFiles/images/Book-images/Babel.jpg" alt="" 
+                  class="product-image default">
+
+                  <img src="AssetFiles/images/Book-images/Babel.jpg" alt="" 
+                  class="product-image hover">
+                </a>
+
+                <div class="product-actions">
+                  <a href="#" class="action-btn" aria-label="Quick View">
+                    <i class="fi fi-rs-eye"></i>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                    <i class="fi fi-rs-heart"></i>
+                  </a>
+                </div>
+
+                <div class="product-badge discount-color">-10%</div>
+              </div>
+
+              <div class="product-content">
+                <span class="product-category">Crime</span>
+                <a href="details.html">
+                  <h3 class="product-title">Babel</h3>
+                </a>
+                <span class="product-author">Michael Oranta</span>
+                <div class="product-rating">
+                  <i class="fi fi-sr-star"></i>
+                  <i class="fi fi-sr-star"></i>
+                  <i class="fi fi-sr-star"></i>
+                  <i class="fi fi-sr-star"></i>
+                  <i class="fi fi-sr-star"></i>
+                </div>
+                <div class="product-price flex">
+                  <span class="new-price">198,000T</span>
+                  <span class="old-price">220,000T</span>
+                </div>
+
+                <a href="#" 
+                class="action-btn cart-btn" 
+                aria-label="Add To Cart"
+                >
+                  <i class="fi fi-rs-shopping-bag-add"></i>
+                </a>
+
+              </div>
+            </div>
+
+            <div class="product-item swiper-slide">
+              <div class="product-banner">
+                <a href="details.html" class="product-images">
+                  <img src="AssetFiles/images/Book-images/Awesome-Facts-for-Potter-Fans.jpg" alt="" 
+                  class="product-image default">
+
+                  <img src="AssetFiles/images/Book-images/Awesome-Facts-for-Potter-Fans.jpg" alt="" 
+                  class="product-image hover">
+                </a>
+
+                <div class="product-actions">
+                  <a href="#" class="action-btn" aria-label="Quick View">
+                    <i class="fi fi-rs-eye"></i>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                    <i class="fi fi-rs-heart"></i>
+                  </a>
+                </div>
+
+                <div class="product-badge discount-color">-20%</div>
+              </div>
+
+              <div class="product-content">
+                <span class="product-category">Fantasy</span>
+                <a href="details.html">
+                  <h3 class="product-title">Awesome Facts for Potter Fans</h3>
+                </a>
+                <span class="product-author">Alex Jard</span>
+                <div class="product-rating">
+                  <i class="fi fi-sr-star"></i>
+                  <i class="fi fi-sr-star"></i>
+                  <i class="fi fi-sr-star"></i>
+                  <i class="fi fi-sr-star"></i>
+                  <i class="fi fi-sr-star"></i>
+                </div>
+                <div class="product-price flex">
+                  <span class="new-price">240,000T</span>
+                  <span class="old-price">300,000T</span>
+                </div>
+
+                <a href="#" 
+                class="action-btn cart-btn" 
+                aria-label="Add To Cart"
+                >
+                  <i class="fi fi-rs-shopping-bag-add"></i>
+                </a>
+
+              </div>
+            </div>
+
+            <div class="product-item swiper-slide">
+              <div class="product-banner">
+                <a href="details.html" class="product-images">
+                  <img src="AssetFiles/images/Book-images/The-Wager.jpg" alt="" 
+                  class="product-image default">
+
+                  <img src="AssetFiles/images/Book-images/The-Wager.jpg" alt="" 
+                  class="product-image hover">
+                </a>
+
+                <div class="product-actions">
+                  <a href="#" class="action-btn" aria-label="Quick View">
+                    <i class="fi fi-rs-eye"></i>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                    <i class="fi fi-rs-heart"></i>
+                  </a>
+                </div>
+
+                <div class="product-badge hot-color">Hot</div>
+              </div>
+
+              <div class="product-content">
+                <span class="product-category">Classic</span>
+                <a href="details.html">
+                  <h3 class="product-title">The Wager</h3>
+                </a>
+                <span class="product-author">James Watson</span>
+                <div class="product-rating">
+                  <i class="fi fi-sr-star"></i>
+                  <i class="fi fi-sr-star"></i>
+                  <i class="fi fi-sr-star"></i>
+                  <i class="fi fi-sr-star"></i>
+                  <i class="fi fi-sr-star"></i>
+                </div>
+                <div class="product-price flex">
+                  <span class="new-price">120,000T</span>
+                  <span class="old-price">170,000T</span>
+                </div>
+
+                <a href="#" 
+                class="action-btn cart-btn" 
+                aria-label="Add To Cart"
+                >
+                  <i class="fi fi-rs-shopping-bag-add"></i>
+                </a>
+
+              </div>
+            </div>
+
+            <div class="product-item swiper-slide">
+              <div class="product-banner">
+                <a href="details.html" class="product-images">
+                  <img src="AssetFiles/images/Book-images/Godkiller---The-Fallen-Gods-Trilogy.jpg" alt="" 
+                  class="product-image default">
+
+                  <img src="AssetFiles/images/Book-images/Godkiller---The-Fallen-Gods-Trilogy.jpg" alt="" 
+                  class="product-image hover">
+                </a>
+
+                <div class="product-actions">
+                  <a href="#" class="action-btn" aria-label="Quick View">
+                    <i class="fi fi-rs-eye"></i>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                    <i class="fi fi-rs-heart"></i>
+                  </a>
+                </div>
+
+                <div class="product-badge hot-color">Hot</div>
+              </div>
+
+              <div class="product-content">
+                <span class="product-category">Crime</span>
+                <a href="details.html">
+                  <h3 class="product-title">Godkiller-The Fallen Gods Trilogy</h3>
+                </a>
+                <span class="product-author">Roosh Rodrigez</span>
+                <div class="product-rating">
+                  <i class="fi fi-sr-star"></i>
+                  <i class="fi fi-sr-star"></i>
+                  <i class="fi fi-sr-star"></i>
+                  <i class="fi fi-sr-star"></i>
+                  <i class="fi fi-sr-star"></i>
+                </div>
+                <div class="product-price flex">
+                  <span class="new-price">180,000T</span>
+                  <span class="old-price">200,000T</span>
+                </div>
+
+                <a href="#" 
+                class="action-btn cart-btn" 
+                aria-label="Add To Cart"
+                >
+                  <i class="fi fi-rs-shopping-bag-add"></i>
+                </a>
+
+              </div>
+            </div>
+
+            <div class="product-item swiper-slide">
+              <div class="product-banner">
+                <a href="details.html" class="product-images">
+                  <img src="AssetFiles/images/Book-images/The-Silent-Patient.jpg" alt="" 
+                  class="product-image default">
+
+                  <img src="AssetFiles/images/Book-images/The-Silent-Patient.jpg" alt="" 
+                  class="product-image hover">
+                </a>
+
+                <div class="product-actions">
+                  <a href="#" class="action-btn" aria-label="Quick View">
+                    <i class="fi fi-rs-eye"></i>
+                  </a>
+
+                  <a href="#" class="action-btn" aria-label="Add To Wishlist">
+                    <i class="fi fi-rs-heart"></i>
+                  </a>
+                </div>
+
+                <div class="product-badge hot-color">Hot</div>
+              </div>
+
+              <div class="product-content">
+                <span class="product-category">Classic</span>
+                <a href="details.html">
+                  <h3 class="product-title">The Silent Patient</h3>
+                </a>
+                <span class="product-author">Alex Michaelides</span>
+                <div class="product-rating">
+                  <i class="fi fi-sr-star"></i>
+                  <i class="fi fi-sr-star"></i>
+                  <i class="fi fi-sr-star"></i>
+                  <i class="fi fi-sr-star"></i>
+                  <i class="fi fi-sr-star"></i>
+                </div>
+                <div class="product-price flex">
+                  <span class="new-price">120,000T</span>
+                  <span class="old-price">170,000T</span>
+                </div>
+
+                <a href="#" 
+                class="action-btn cart-btn" 
+                aria-label="Add To Cart"
+                >
+                  <i class="fi fi-rs-shopping-bag-add"></i>
+                </a>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-button-prev">
+            <i class="fi fi-sr-angle-left"></i>
+          </div>
+          <div class="swiper-button-next">
+            <i class="fi fi-sr-angle-right"></i>
+          </div>        
+
+        </div>
+      </section>
+
+      <!--=============== SHOWCASE ===============-->
+      <section class="showcase section">
+        <div class="showcase-container container grid">
+          <div class="showcase-wrapper">
+            <h3 class="section-title">Hot Releases</h3>
+
+            <div class="showcase-item">
+              <a href="details.html" class="showcase-image-box">
+                <img src="AssetFiles/images/Book-images/Little-Prince.jpg"
+                 alt=""
+                 class="showcase-image">
+              </a>
+
+              <div class="showcase-content">
+                <a href="details.html">
+                  <h4 class="showcase-title">Little Prince</h4>
+                </a>
+
+                <div class="showcase-price flex">
+                  <span class="new-price">120,000T</span>
+                  <span class="old-price">135,000T</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="showcase-item">
+              <a href="details.html" class="showcase-image-box">
+                <img src="AssetFiles/images/Book-images/Godkiller---The-Fallen-Gods-Trilogy.jpg"
+                 alt=""
+                 class="showcase-image">
+              </a>
+
+              <div class="showcase-content">
+                <a href="details.html">
+                  <h4 class="showcase-title">Godkiller-The Fallen Gods Trilogy</h4>
+                </a>
+
+                <div class="showcase-price flex">
+                  <span class="new-price">180,000T</span>
+                  <span class="old-price">200,000T</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="showcase-item">
+              <a href="details.html" class="showcase-image-box">
+                <img src="AssetFiles/images/Book-images/Verity.jpg"
+                 alt=""
+                 class="showcase-image">
+              </a>
+
+              <div class="showcase-content">
+                <a href="details.html">
+                  <h4 class="showcase-title">Verity</h4>
+                </a>
+
+                <div class="showcase-price flex">
+                  <span class="new-price">150,000T</span>
+                  <span class="old-price">175,000T</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="showcase-wrapper">
+            <h3 class="section-title">Top Selling</h3>
+
+            <div class="showcase-item">
+              <a href="details.html" class="showcase-image-box">
+                <img src="AssetFiles/images/Book-images/Awesome-Facts-for-Potter-Fans.jpg"
+                 alt=""
+                 class="showcase-image">
+              </a>
+
+              <div class="showcase-content">
+                <a href="details.html">
+                  <h4 class="showcase-title">Awesome Facts for Potter Fans</h4>
+                </a>
+
+                <div class="showcase-price flex">
+                  <span class="new-price">240,000T</span>
+                  <span class="old-price">300,000T</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="showcase-item">
+              <a href="details.html" class="showcase-image-box">
+                <img src="AssetFiles/images/Book-images/A-Game-of-Thrones-The-Illustrated-Edition.jpg"
+                 alt=""
+                 class="showcase-image">
+              </a>
+
+              <div class="showcase-content">
+                <a href="details.html">
+                  <h4 class="showcase-title">Game of Thrones-The Illustrated Edition</h4>
+                </a>
+
+                <div class="showcase-price flex">
+                  <span class="new-price">225,000T</span>
+                  <span class="old-price">250,000T</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="showcase-item">
+              <a href="details.html" class="showcase-image-box">
+                <img src="AssetFiles/images/Book-images/The-Housemaid.jpg"
+                 alt=""
+                 class="showcase-image">
+              </a>
+
+              <div class="showcase-content">
+                <a href="details.html">
+                  <h4 class="showcase-title">The Housemaid</h4>
+                </a>
+
+                <div class="showcase-price flex">
+                  <span class="new-price">140,000T</span>
+                  <span class="old-price">165,000T</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="showcase-wrapper">
+            <h3 class="section-title">Self Help</h3>
+
+            <div class="showcase-item">
+              <a href="details.html" class="showcase-image-box">
+                <img src="AssetFiles/images/Book-images/Atomic-Habits.jpg"
+                 alt=""
+                 class="showcase-image">
+              </a>
+
+              <div class="showcase-content">
+                <a href="details.html">
+                  <h4 class="showcase-title">Atomic Habits</h4>
+                </a>
+
+                <div class="showcase-price flex">
+                  <span class="new-price">135,000T</span>
+                  <span class="old-price">150,000T</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="showcase-item">
+              <a href="details.html" class="showcase-image-box">
+                <img src="AssetFiles/images/Book-images/The-Psychology-of-Money.jpg"
+                 alt=""
+                 class="showcase-image">
+              </a>
+
+              <div class="showcase-content">
+                <a href="details.html">
+                  <h4 class="showcase-title">The Psychology of Money</h4>
+                </a>
+
+                <div class="showcase-price flex">
+                  <span class="new-price">98,000T</span>
+                  <span class="old-price">120,000T</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="showcase-item">
+              <a href="details.html" class="showcase-image-box">
+                <img src="AssetFiles/images/Book-images/The-Housemaid.jpg"
+                 alt=""
+                 class="showcase-image">
+              </a>
+
+              <div class="showcase-content">
+                <a href="details.html">
+                  <h4 class="showcase-title">The Housemaid</h4>
+                </a>
+
+                <div class="showcase-price flex">
+                  <span class="new-price">140,000T</span>
+                  <span class="old-price">165,000T</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="showcase-wrapper">
+            <h3 class="section-title">Bests of This Month</h3>
+
+            <div class="showcase-item">
+              <a href="details.html" class="showcase-image-box">
+                <img src="AssetFiles/images/Book-images/Awesome-Facts-for-Potter-Fans.jpg"
+                 alt=""
+                 class="showcase-image">
+              </a>
+
+              <div class="showcase-content">
+                <a href="details.html">
+                  <h4 class="showcase-title">Awesome Facts for Potter Fans</h4>
+                </a>
+
+                <div class="showcase-price flex">
+                  <span class="new-price">135,000T</span>
+                  <span class="old-price">150,000T</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="showcase-item">
+              <a href="details.html" class="showcase-image-box">
+                <img src="AssetFiles/images/Book-images/Babel.jpg"
+                 alt=""
+                 class="showcase-image">
+              </a>
+
+              <div class="showcase-content">
+                <a href="details.html">
+                  <h4 class="showcase-title">Babel</h4>
+                </a>
+
+                <div class="showcase-price flex">
+                  <span class="new-price">198,000T</span>
+                  <span class="old-price">220,000T</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="showcase-item">
+              <a href="details.html" class="showcase-image-box">
+                <img src="AssetFiles/images/Book-images/The-Silent-Patient.jpg"
+                 alt=""
+                 class="showcase-image">
+              </a>
+
+              <div class="showcase-content">
+                <a href="details.html">
+                  <h4 class="showcase-title">The Silent Patient</h4>
+                </a>
+
+                <div class="showcase-price flex">
+                  <span class="new-price">120,000T</span>
+                  <span class="old-price">170,000T</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== NEWSLETTER ===============-->
+      <section class="newsletter section home-newsletter">
+        <div class="newsletter-container container grid">
+          <h3 class="newsletter-title flex">
+            <i class="fi fi-rr-envelope-plus newsletter-icon"></i>
+            Sign Up to Newsletter  
+          </h3>
+
+          <p class="newsletter-description">
+            and Recieve a <span>20% Coupon</span> for First Shopping
+          </p>
+
+          <form action="" class="newsletter-form">
+            <input 
+              type="text" 
+              placeholder="Enter Your Email"
+              class="newsletter-input"
+            >
+            <button type="submit" class="newsletter-btn">Subscribe</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer-initial">
+      <div class="footer container">
+        <div class="footer-container grid">
+        <div class="footer-content">
+          <a href="" class="footer-logo">
+            <img src="AssetFiles/images/ChaBook-Logo-typography-cream.png" 
+              class="footer-logo-image" 
+              alt=""
+              />
+          </a>
+
+          <h3 class="footer-subtitle">contact</h4>
+
+          <p class="footer-description">
+            <span><i class="fi fi-sr-marker footer-contact-icon"></i> </span>
+             No55, Bagheri Alley, Enghelab Street, Tehran
+          </p>
+
+          <p class="footer-description">
+            <span><i class="fi fi-sr-phone-flip footer-contact-icon"></i> </span>
+             +982144456789
+          </p>
+
+          <p class="footer-description">
+            <span><i class="fi fi-sr-clock footer-contact-icon"></i> </span> 
+             9:00-20:00 Sat-Thu
+          </p>
+
+          <div class="footer-social">
+            <h3 class="footer-subtitle">Follow Us</h4>
+
+            <div class="footer-social-links flex">
+              <a href="">
+                <i class="fi fi-brands-instagram footer-social-icon"></i>
+              </a>
+
+              <a href="">
+                <i class="fi fi-brands-telegram footer-social-icon"></i>
+              </a>
+
+              <a href="">
+                <i class="fi fi-brands-youtube footer-social-icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-content">
+          <h3 class="footer-title">Address</h3>
+
+          <ul class="footer-links">
+            <li><a href="" class="footer-link">About us</a></li>
+            <li><a href="" class="footer-link">Delivery Information</a></li>
+            <li><a href="" class="footer-link">Privacy Policy</a></li>
+            <li><a href="" class="footer-link">Terms & Conditions</a></li>
+            <li><a href="" class="footer-link">Contact us</a></li>
+            <li><a href="" class="footer-link">Support Center</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-content">
+          <h3 class="footer-title">My Account</h3>
+
+          <ul class="footer-links">
+            <li><a href="" class="footer-link">Sign In</a></li>
+            <li><a href="" class="footer-link">View Cart</a></li>
+            <li><a href="" class="footer-link">My Wishlist</a></li>
+            <li><a href="" class="footer-link">Track My Order</a></li>
+            <li><a href="" class="footer-link">Help</a></li>
+            <li><a href="" class="footer-link">Order</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-content">
+          <h3 class="footer-title">Secured payment Gateways</h3>
+          <img 
+            src="AssetFiles/images/payment-method.png" 
+            alt="" 
+            class="payment-image"
+          />
+        </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p class="copyright">&copy; 2024 ChaBook. All rights reserved</p>
+          <span class="designer">Designed by MAH Team</span>
+        </div>
+      </div>
+    </footer>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="AssetFiles/Script/main.js"></script>
+  </body>
+</html>
